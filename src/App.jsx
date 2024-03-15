@@ -37,11 +37,20 @@ function App() {
       <section>
       
         <div className='scheduling'>
-          <p>Tá afim de lançar aquela régua??!!</p>
-          <a href="">Agende já</a>
+          <div>
+              <p>Tá afim de lançar aquela régua??!!</p>
+              <a href="">Agende já</a>
+          </div>
         </div>
         <div className='barber'>
+          
+          <div className='red'>
+          </div>
+          <div className='blue'>
+          </div>
           <img src="src\assets\adult-barber-trimming-clients-hair-barbershop.jpeg" alt=""/>
+            
+         
         </div>
 
       </section>
