@@ -64,6 +64,49 @@ function App() {
             <h1>--Nossos Serviços--</h1>
             <img src="src/assets/poste-de-barbeiro.png" />
          </div>
+         <div className='services'>
+          <div>
+            <div>
+              <img src="src\assets\barba.png" alt="" />
+              <div className='service-type barba'>
+                <p>Barba e sombrancelha</p>
+              </div>
+            </div>
+            <div className='services-list'>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img src="src\assets\cabelo.png" alt="" />
+              <div className='service-type cabelo'>
+                <p>Cabelo</p>
+              </div>
+            </div>
+            <div className='services-list'>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+              <p>Corte Tesoura ------------------- R$25,00</p>
+            </div>
+          </div>
+         </div>
+      </section>
+      <section className='clients-sec'>
+        <div className='slogan'>
+          <div>
+            <div>
+              <p>Os cortes mais brabos</p>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   )

@@ -7,6 +7,9 @@
   text-decoration: none;
   color: white;
   font-size: 25px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
 }
 body{
   background-color:#F0E4D6 ;

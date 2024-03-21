@@ -74,10 +74,7 @@ section{
 .scheduling-sec{
   height: 31rem;
   background-image: url(.\assets\56e830e3-0dfa-43e5-8978-54f239dddade.jpg);
-  background-repeat: no-repeat;
-  background-size:contain;
   z-index: 1;
-  background-size: cover;
   background-position: 50% 50% ;
   display: flex;
   justify-content: space-around;
@@ -106,7 +103,6 @@ section{
   font-size: 55px;
   margin: 1.5rem;
 }
-
 
 .scheduling-area > div > a{
   background-color: #C0382B;
@@ -166,11 +162,12 @@ section{
 
 .services-sec{
   background-image: url(assets/6bcc1e0f-b9d7-4801-8a36-68b09a63f4e0.jpg);
-  height: 50rem;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items:center;
+  gap: 3rem;
 }
 
 .services-title{
@@ -185,4 +182,81 @@ section{
 .services-title > h1{
   color: black;
   font-size:100px;
+}
+.services{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap:  15%;
+}
+.services > div > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services > div > div > div{
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  top: -60px;
+}
+
+
+.services > div > div > img{
+  width: 11rem;
+}
+
+.services > div > div > div > p{
+  font-family: 'Anton';
+  font-size: larger;
+}
+.service-type{
+  width: 11rem;
+}
+.cabelo{
+  background-color: #3a9fdd;
+}
+.barba{
+  background-color: #C0382B;
+}
+
+.services-list > p{
+  color: black;
+  font-family: "Anonymous Pro", monospace;
+  padding-bottom: 3rem;
+}
+
+.clients-sec{
+   background-image: url(assets/SL-072520-32870-33_1_.jpeg);
+}
+
+.slogan div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slogan{
+  background-color:#2578AC;
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slogan > div{
+  background-color:#F0E4D6;
+  height: 6.3rem;
+}
+.slogan > div > div{
+  background-color:#C0382B;
+  height: 5.7rem;
+  justify-content: center;
+}
+.slogan > div > div > p{
+  font-family: 'Anton';
+  font-size: 90px;
+  
 }
