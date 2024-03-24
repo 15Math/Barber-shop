@@ -1,0 +1,33 @@
+
+.clients-sec{
+    background-image: url(../../assets/SL-072520-32870-33_1_.jpeg);
+ }
+ 
+ .slogan div{
+   width: 100%;
+   display: flex;
+   align-items: center;
+ }
+ 
+ .slogan{
+   background-color:#2578AC;
+   height: 7rem;
+   width: 100%;
+   display: flex;
+   align-items: center;
+ }
+ 
+ .slogan > div{
+   background-color:#F0E4D6;
+   height: 6.3rem;
+ }
+ .slogan > div > div{
+   background-color:#C0382B;
+   height: 5.7rem;
+   justify-content: center;
+ }
+ .slogan > div > div > p{
+   font-family: 'Anton';
+   font-size: 90px;
+   
+ }

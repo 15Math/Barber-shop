@@ -1,0 +1,75 @@
+.scheduling-sec{
+    height: 31rem;
+    background-image: url(..\..\assets\56e830e3-0dfa-43e5-8978-54f239dddade.jpg);
+    z-index: 1;
+    background-position: 50% 50% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .scheduling-area{
+    background-color: #C0382B;
+    height: 16rem;
+    width: 35rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: end;
+  
+   }
+  .scheduling-area > div{
+    background-color: #2578AC;
+    height: 14rem;
+    width: 32rem;
+    margin: 0.4rem; 
+    border-radius: 25px;
+  
+  }
+  .scheduling-area > div > p{
+    font-family: 'Anton';
+    font-size: 55px;
+    margin: 1.5rem;
+  }
+  
+  .scheduling-area > div > a{
+    background-color: #C0382B;
+    color:#ffffff;
+    margin: 1.5rem;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 35px;
+  }
+  .scheduling-area > div > a:hover{
+    background-color:#ffffff;
+    color: #C0382B;
+    transition: 0.5s;
+  }
+  
+  
+  .barber{
+    width: 14rem;
+    height: 22.5rem;
+  }
+  
+  .barber img{
+    width: 13rem;
+    position: relative;
+    top: -41.5rem;
+    right: -0.5rem;
+  }
+  .red{
+    background-color: #C0382B;
+    position: relative;
+    left: 4rem;
+    width: 10rem;
+    height: 21.5rem;
+    border-radius: 10px;
+  }
+  .blue{
+      background-color:#2578AC;
+      position: relative;
+      top: -21rem;
+      width: 10rem;
+      height: 21.5rem;
+      border-radius: 10px;
+  }

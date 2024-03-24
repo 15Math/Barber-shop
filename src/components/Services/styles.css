@@ -1,0 +1,68 @@
+.services-sec{
+    background-image: url(../../assets/6bcc1e0f-b9d7-4801-8a36-68b09a63f4e0.jpg);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+    gap: 3rem;
+  }
+  
+  .services-title{
+    display: flex;
+    padding-top: 5rem;
+    align-items: center;
+    
+  }
+  .services-title > img{
+    width: 11rem;
+  }
+  .services-title > h1{
+    color: black;
+    font-size:100px;
+  }
+  .services{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap:  15%;
+  }
+  .services > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .services > div > div > div{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: -60px;
+  }
+  
+  
+  .services > div > div > img{
+    width: 11rem;
+  }
+  
+  .services > div > div > div > p{
+    font-family: 'Anton';
+    font-size: larger;
+  }
+  .service-type{
+    width: 11rem;
+  }
+  .cabelo{
+    background-color: #3a9fdd;
+  }
+  .barba{
+    background-color: #C0382B;
+  }
+  
+  .services-list > p{
+    color: black;
+    font-family: "Anonymous Pro", monospace;
+    padding-bottom: 3rem;
+  }
+  
