@@ -9,14 +9,15 @@ export default function Services(){
             <img src="src/assets/poste-de-barbeiro.png" data-aos="flip-right"/>
          </div>
          <div className='services' >
-          <div data-aos="fade-right" data-aos-duration="1000">
+          <div data-aos="zoom-in"  
+        data-aos-duration="2000">
             <div>
               <img src="src\assets\barba.png" alt="" />
               <div className='service-type barba'>
                 <p>Barba e sombrancelha</p>
               </div>
             </div>
-            <div className='services-list' >
+            <div className='services-list cabelo' >
               <p>Corte Tesoura ------------------- R$25,00</p>
               <p>Corte Tesoura ------------------- R$25,00</p>
               <p>Corte Tesoura ------------------- R$25,00</p>
@@ -25,14 +26,15 @@ export default function Services(){
               <p>Corte Tesoura ------------------- R$25,00</p>
             </div>
           </div>
-          <div data-aos="fade-left" data-aos-duration="1000">
+          <div data-aos="zoom-in"  
+        data-aos-duration="2000">
             <div>
               <img src="src\assets\cabelo.png" alt="" />
               <div className='service-type cabelo'>
                 <p>Cabelo</p>
               </div>
             </div>
-            <div className='services-list'>
+            <div className='services-list barba'>
               <p>Corte Tesoura ------------------- R$25,00</p>
               <p>Corte Tesoura ------------------- R$25,00</p>
               <p>Corte Tesoura ------------------- R$25,00</p>

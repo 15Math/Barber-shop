@@ -1,6 +1,11 @@
 
 .clients-sec{
-    background-image: url(../../assets/SL-072520-32870-33_1_.jpeg);
+    background-image: url(..\..\assets\clients-bg.jpeg);
+    background-position: cover;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
  }
  
  .slogan div{

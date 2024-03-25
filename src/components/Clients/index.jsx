@@ -1,4 +1,5 @@
 import './styles.css'
+import ClientsCarousel from './Clients-carousel'
 
 export default function Clients(){
     return(
@@ -10,6 +11,7 @@ export default function Clients(){
             </div>
           </div>
         </div>
+        <ClientsCarousel/>
       </section>
     )
 }
