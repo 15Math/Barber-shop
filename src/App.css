@@ -3,15 +3,25 @@ section{
   width: 100%;
 }
 
-.division{
+.division-1{
   background-color: #C0382B;
   width: 100%;
   height: 1.5rem;
 }
-.division > div{
+.division-1 > div{
   background-color: #2578AC;
   width: 100%;
   height: 0.5rem;
   position: relative;
   top: 50px;
+}
+
+.division-2{
+  width: 100%;
+  height: 1rem;
+  background-color: #2578AC;
+}
+
+a:hover{
+ color: rgb(236, 228, 228);
 }

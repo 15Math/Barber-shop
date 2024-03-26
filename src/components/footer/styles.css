@@ -1,0 +1,47 @@
+footer{
+    height: 20rem;
+    width: 100%;
+    background-color: #AC3B30;
+    display: flex;
+    
+}
+
+footer h1{
+    font-size: 70px;
+    font-family: 'Anton';
+    font-weight: normal;
+    
+}
+
+footer h2{
+    font-size: 30px;
+}
+
+footer a{
+    text-decoration: underline;
+}
+
+footer p{
+    font-weight: 200;
+    font-size:  25px;
+}
+
+.contact{
+    padding: 0.5rem 2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.remote-contact > div{
+    display: flex;
+    gap: 10px;
+}
+.remote-contact > div > img{
+    width: 30px;
+}
+.schedule-link{
+    align-self: flex-end;
+    margin-left: auto;
+    padding: 1rem;
+}

@@ -6,10 +6,14 @@ export default styled.div`
   align-items: center;
   height: 17rem;
   width: 100%;
-  background-color: #683bb7;
   color: #fff;
   margin: 15px;
   font-size: 4em;
+  border-bottom: 10px solid #2578AC;
+  border-right: 10px solid #2578AC;
+  border-left: 10px solid #C0382B;
+  border-top: 10px solid #C0382B;
+
 
   img {
     width: 100%;

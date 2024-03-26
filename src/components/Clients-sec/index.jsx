@@ -1,5 +1,5 @@
 import './styles.css'
-import ClientsCarousel from './Clients-carousel'
+import ClientsCarousel from '../Clients-carousel'
 
 export default function Clients(){
     return(
