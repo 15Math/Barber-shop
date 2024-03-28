@@ -11,7 +11,10 @@ export default function Clients(){
             </div>
           </div>
         </div>
-        <ClientsCarousel/>
+        
+        <div className='carousel'>
+          <ClientsCarousel/>
+        </div>
       </section>
     )
 }

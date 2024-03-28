@@ -25,3 +25,48 @@ section{
 a:hover{
  color: rgb(236, 228, 228);
 }
+
+@media(max-width:1024px){
+
+  .logo{
+    width: 11rem;
+    height: 5.7rem;
+    top: 22px;
+  }
+
+  .barber{display:none;}
+
+  .services-title>h1{
+    font-size: 80px;
+  }
+
+  .services-title>img{
+    width: 8rem;
+  }
+  .services{
+    flex-direction: column;
+    width: 25rem;
+  }
+  
+}
+
+@media(max-width:768px){
+
+  .logo{
+    width: 8rem;
+    height: 4.2rem;
+    top: 22px;
+  }
+
+  .nav > a{
+    font-size: 21px;
+  }
+  .scheduling-area{
+    width: 23rem;
+    
+  }
+  .scheduling-area>div{
+    text-align: center;
+    
+  }
+}

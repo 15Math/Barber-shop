@@ -19,6 +19,7 @@ footer h2{
 
 footer a{
     text-decoration: underline;
+
 }
 
 footer p{
@@ -44,4 +45,5 @@ footer p{
     align-self: flex-end;
     margin-left: auto;
     padding: 1rem;
+    text-align: center;
 }

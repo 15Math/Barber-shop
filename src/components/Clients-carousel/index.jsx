@@ -7,7 +7,7 @@ export default function ClientsCarousel(){
     const breakPoints = [
         { width: 1, itemsToShow: 1 },
         { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-        { width: 768, itemsToShow: 3 },
+        { width: 768, itemsToShow: 2 },
         { width: 1200, itemsToShow: 4 },
       ];
         
@@ -21,7 +21,7 @@ export default function ClientsCarousel(){
             <Item  data-aos="zoom-in"  
         data-aos-duration="2000"><img src="https://miro.medium.com/v2/resize:fit:540/0*lwKKwswH-5tEeWnz.jpg" alt="" /></Item>
             <Item data-aos="zoom-in"  
-        data-aos-duration="2000"><img src="https://lh3.googleusercontent.com/proxy/oOmGoDd0O_diUZ2GA0Jg3HBVXl21JsSHhroUgpDDRxEOxWSh8idsgLu61GYH3hYcaHN2s0bnwCIOKBC4eGQnnYZ8saZ-L6p2gItBuEL3PY44ymzDOzptaI5LqYUey9JwEKNKsXXWz7XiguKxi56-YKPgk4_JM_diXBbUAY_PPkVE8Q" alt="" /></Item>
+        data-aos-duration="2000"><img src="https://i.pinimg.com/originals/1e/95/9d/1e959d6f59d4ca0af37daf1008c9901a.jpg" alt="" /></Item>
             <Item data-aos="zoom-in"  
         data-aos-duration="2000"><img src="https://www.sospedro.com.br/wp-content/uploads/2023/02/Corte-americano-cabelo-crespo-7.jpg" alt="" /></Item>
             <Item data-aos="zoom-in"  
