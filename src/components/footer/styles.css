@@ -19,7 +19,8 @@ footer h2{
 
 footer a{
     text-decoration: underline;
-
+    font-size: 20px;
+    color: #76cbff;
 }
 
 footer p{

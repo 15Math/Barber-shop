@@ -25,8 +25,8 @@ export default function Footer(){
                     <h2>Horário de funcionamento</h2>
                     <p>Segunda a Sexta - 8h às 20h</p>
                </div>
+               <a href="">Agendamento online</a>
            </div>
-            <a href="" className='schedule-link'><p>Agendamento online</p></a>
 
         </footer>
     )
