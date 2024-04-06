@@ -52,4 +52,26 @@ button.rec-dot_active {
     background-color: #2578ac9a;
 }
 
-
+  
+@media(min-width:2560px){
+    .rec-carousel-item > div > div{
+      height: 20rem;
+    }
+  }
+  
+  
+  @media(max-width:425px){
+    
+    .rec.rec-arrow{
+     
+      width: 75px;
+      height: 70px;
+      padding-bottom: 6px;
+      color: #F0E4D6;
+      font-size: 35px;
+      border:4px solid #F0E4D6;
+  }
+  .rec-carousel-item > div > div{
+    height: 13rem;
+  }
+  }

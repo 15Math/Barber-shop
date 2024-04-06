@@ -26,13 +26,18 @@
     justify-content: center;
     width: 100%;
     gap:  15%;
-   
+    
   }
   .services > div > div{
     display: flex;
     flex-direction: column;
     align-items: center;
 
+  }
+  .services > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .services > div > div > div{
@@ -48,7 +53,7 @@
     width: 11rem;
   }
   
-  .services > div > div > div > p{
+  .service-type > p{
     font-family: 'Anton';
     font-size: larger;
   
@@ -78,3 +83,71 @@
     margin-bottom: 3rem;
   }
 
+
+  @media(max-width:1024px){
+
+    .services-title>h1{
+      font-size: 80px;
+    }
+  
+    .services-title>img{
+      width: 8rem;
+    }
+    .services{
+      flex-direction: column;
+      width: 25rem;
+    }
+    
+  }
+  
+  
+  @media(max-width:768px){
+  
+    .services-title>h1{
+      font-size: 60px;
+    }
+    .services-title>img{
+      width: 6rem;
+    }
+  
+  }
+  
+  @media(max-width:425px){
+    .services-title{
+      padding-top: 3rem;
+    }
+    .services-title>h1{
+      font-size: 36px;
+    }
+    .services-title>img{
+      width: 3rem;
+    }
+  
+    .services > div > div > img{
+      width: 9rem;
+    }
+    
+    .service-type > p{
+      font-family: 'Anton';
+      font-size: 20px;
+    
+    }
+    .service-type{
+      width: 9rem;
+    }
+    .services > div > div > div{
+      padding: 10px;
+      border-radius: 10px;
+    }
+    .services-list{
+      gap: 3rem;
+      border-radius: 10px;
+      padding: 2rem;
+      width: 10rem;
+      margin-bottom: 2rem;
+    }
+    .services-list > p{
+      font-size: 16px;
+    }
+   
+  }

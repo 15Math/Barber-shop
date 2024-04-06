@@ -74,3 +74,44 @@
       border-radius: 10px;
   }
  
+
+  
+@media(max-width:1024px){
+  .barber{display:none;}
+}
+
+
+@media(max-width:768px){
+  .scheduling-area{
+    width: 23rem;
+    
+  }
+  .scheduling-area>div{
+    text-align: center; 
+  }
+}
+
+@media(max-width:425px){
+ 
+  .scheduling-area{
+    width: 13rem;
+    height: 10rem;
+    
+  }
+  .scheduling-area > div{
+    height: 9rem;
+  }
+
+  .scheduling-area>div>p{
+    font-size: 30px;
+    
+  }
+  .scheduling-area>div>a{
+    font-size: 20px;
+    
+  }
+  .scheduling-sec{
+    height: 60vh;
+  }
+
+}

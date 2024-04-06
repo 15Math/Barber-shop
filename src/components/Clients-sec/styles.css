@@ -42,3 +42,27 @@
    font-size: 90px;
    
  }
+
+
+ 
+
+@media(max-width:768px){
+
+  .slogan > div > div > p{
+    font-size: 75px;
+  }
+
+  
+}
+
+@media(max-width:425px){
+
+  .slogan > div > div > p{
+    font-size: 43px;
+  }
+  .slogan > div > div > p{
+   font-size: 43px;
+  }
+  
+ 
+}

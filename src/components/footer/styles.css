@@ -48,3 +48,15 @@ footer p{
     padding: 1rem;
     text-align: center;
 }
+  
+  @media(max-width:768px){
+  
+    footer{
+      flex-direction: column-reverse;
+      height: 30rem;
+      gap: 20px;
+    }
+  
+    
+  }
+  

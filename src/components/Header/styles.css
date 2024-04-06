@@ -65,4 +65,37 @@
     display: flex;
     justify-content: space-between;
   }
-  
+@media(max-width:1024px){
+
+  .logo{
+    width: 11rem;
+    height: 5.7rem;
+    top: 22px;
+  }
+}
+
+
+@media(max-width:768px){
+
+  .logo{
+    width: 8rem;
+    height: 4.2rem;
+    top: 22px;
+  }
+
+  .nav > a{
+    font-size: 21px;
+  }
+}
+
+@media(max-width:425px){
+  .nav{
+    display: none;
+  }
+  .logo{
+    width: 7rem;
+    height: 3.6rem;
+    top: 0px;
+  }
+
+}
