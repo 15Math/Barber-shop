@@ -9,7 +9,7 @@
   font-size: 25px;
   background-repeat: no-repeat;
   background-size: cover; 
-  
+  box-sizing: border-box;
 }
 body{
   background-color:#F0E4D6 ;

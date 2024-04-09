@@ -44,8 +44,6 @@
     color: #C0382B;
     transition: 0.5s;
   }
-  
-  
   .barber{
     width: 14rem;
     height: 23rem;
@@ -99,7 +97,7 @@
     
   }
   .scheduling-area > div{
-    height: 9rem;
+    height: 9.2rem;
   }
 
   .scheduling-area>div>p{
@@ -108,10 +106,24 @@
   }
   .scheduling-area>div>a{
     font-size: 20px;
+    padding: 17px;
     
   }
   .scheduling-sec{
     height: 60vh;
   }
+  @media(max-width:375px){
+    .scheduling-area{
+      width: 12rem;
+      
+    }
+   
+      .scheduling-area > div > p{
+   
+        font-size: 27px;
+       
+      }
+      
 
+  }
 }

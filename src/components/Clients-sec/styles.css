@@ -64,5 +64,32 @@
    font-size: 43px;
   }
   
- 
+}
+
+@media(max-width:375px){
+  .slogan > div > div > p{
+    font-size: 35px;
+  }
+   
+ .slogan{
+  height: 7.2rem;
+}
+
+.slogan > div{
+  height: 5.3rem;
+}
+.slogan > div > div{
+  height: 4.5rem;
+}
+
+
+}
+
+@media(max-width:320px){
+  .slogan > div > div > p{
+    font-size: 30px;
+  }
+  .clients-sec{
+    height: 70vh;
+  }
 }

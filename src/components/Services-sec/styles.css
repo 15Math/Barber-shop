@@ -143,11 +143,32 @@
       gap: 3rem;
       border-radius: 10px;
       padding: 2rem;
-      width: 10rem;
+      width: 14rem;
       margin-bottom: 2rem;
     }
     .services-list > p{
       font-size: 16px;
     }
-   
+    @media(max-width:375px){
+      .services-title>h1{
+        font-size: 29px;
+        
+      }
+      .services-list{
+        width: 12rem;
+        gap: 1.5rem;
+      }
+      .services-list > p{
+        font-size: 12px;
+      }
+
+    }
+    @media(max-width:320px){
+      .services-title>h1{
+        font-size: 29px;
+      }
+      .services-title>img{
+        width: 2rem;
+      }
+    }
   }
