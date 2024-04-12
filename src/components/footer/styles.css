@@ -57,6 +57,15 @@ footer p{
       gap: 20px;
     }
   
-    
+    @media(max-width:425px){
+  
+        .contact{
+          align-items: center;
+        }
+
+        .contact > div{
+            text-align: center;
+        }
+      
   }
   

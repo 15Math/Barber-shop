@@ -157,9 +157,10 @@
       .services-list{
         width: 12rem;
         gap: 1.5rem;
+        padding: 30px;
       }
       .services-list > p{
-        font-size: 12px;
+        font-size: 14px;
       }
 
     }
