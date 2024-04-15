@@ -1,18 +1,21 @@
 import './styles.css'
+import barba from '/assets/barba.png'
+import cabelo from '/assets/cabelo.png'
+import poste from '/assets/poste-de-barbeiro.png'
 
 export default function Services(){
     return(
-        <section className='services-sec'>
+        <section className='services-sec' id='services'>
          <div className='services-title'>
-            <img src="src/assets/poste-de-barbeiro.png" data-aos="flip-right"/>
+            <img src={poste} data-aos="flip-right"/>
             <h1>--Nossos Serviços--</h1>
-            <img src="src/assets/poste-de-barbeiro.png" data-aos="flip-right"/>
+            <img src={poste}data-aos="flip-right"/>
          </div>
          <div className='services' >
           <div data-aos="zoom-in"  
         data-aos-duration="1000">
             <div>
-              <img src="src\assets\barba.png" alt="" />
+              <img src={barba} alt="" />
               <div className='service-type barba'>
                 <p>Barba e sombrancelha</p>
               </div>
@@ -27,7 +30,7 @@ export default function Services(){
           <div data-aos="zoom-in"  
         data-aos-duration="1000">
             <div>
-              <img src="src\assets\cabelo.png" alt="" />
+              <img src={cabelo} alt="" />
               <div className='service-type cabelo'>
                 <p>Cabelo</p>
               </div>

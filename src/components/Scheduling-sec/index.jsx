@@ -1,8 +1,9 @@
 import './styles.css'
+import barber from '/assets/barber.jpeg'
 
 export default function Scheduling(){
     return(
-            <section className='scheduling-sec'>
+            <section className='scheduling-sec' id='scheduling'>
         
                 <div className='scheduling-area' data-aos="zoom-in-right"  >
                     <div>
@@ -16,7 +17,7 @@ export default function Scheduling(){
                     </div>
                     <div className='blue'>
                     </div>
-                    <img src="src\assets\adult-barber-trimming-clients-hair-barbershop.jpeg" alt=""/>
+                    <img src={barber} alt=""/>
                 </div>
                 
             </section>

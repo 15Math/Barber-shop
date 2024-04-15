@@ -3,7 +3,7 @@ import ClientsCarousel from '../Clients-carousel'
 
 export default function Clients(){
     return(
-        <section className='clients-sec'>
+        <section className='clients-sec' id='clients'>
         <div className='slogan'>
           <div>
             <div>

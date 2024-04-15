@@ -21,16 +21,16 @@ export default function Header(){
                   <div className='header-content' >
            
                       <div className={`div1 nav ${showClass ? "show" : ''}`} onClick={toggleShowClass}>
-                        <a href="">Agendamento</a>
-                        <a href="">Serviços</a>
+                        <a href="#">Agendamento</a>
+                        <a href="#services">Serviços</a>
                       </div>
 
                       <div className='logo'>
                       </div>
 
                       <div className={`div2 nav ${showClass ? "show" : ''}`} onClick={toggleShowClass}>
-                        <a href="" >Contato</a>
-                        <a href="">Clientes</a>
+                        <a href="#contact">Contato</a>
+                        <a href="#clients">Clientes</a>
                       </div>
 
                       <div 

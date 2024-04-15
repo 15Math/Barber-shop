@@ -1,6 +1,6 @@
 
 .clients-sec{
-    background-image: url(..\..\assets\clients-bg.jpeg);
+    background-image: url(/assets/clients-bg.jpeg);
     background-position: cover;
     height: 100vh;
     display: flex;
